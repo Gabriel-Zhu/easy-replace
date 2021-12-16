@@ -33,7 +33,7 @@ const startSingleReplace = config => {
     const fileContent = fs.readFileSync(filePath, { encoding: 'utf-8' });
     let newFileContent = fileContent;
     config.replacements.forEach(replacement => {
-      newFileContent = newFileContent.replace(replacement.from, replacement.to);
+      newFileContent = newFileContent.replace(new RegExp(replacement.from, 'g'), replacement.to);
     });
     fs.writeFileSync(filePath, newFileContent);
     console.log(filePath, ' 替换成功')
