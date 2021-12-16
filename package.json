@@ -1,0 +1,22 @@
+{
+  "name": "easy-replace",
+  "version": "1.0.0",
+  "description": "a simple keyword replacement script run with node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-Zhu/easy-replace.git"
+  },
+  "keywords": [
+    "replace"
+  ],
+  "author": "朱杰",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel-Zhu/easy-replace/issues"
+  },
+  "homepage": "https://github.com/Gabriel-Zhu/easy-replace#readme"
+}
